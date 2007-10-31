@@ -10,14 +10,14 @@ manipulation. This makes it ideal for lexical analyzers, as well as spelling
 dictionaries.
 
 Runtime requirements:
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
 
 Build requirements:
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.9-1
+  cygport-0.3.6-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   libtool1.5-1.5.23a-2
@@ -33,51 +33,52 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libdatrie-0.1.1-X-src.tar.bz2
+  unpack libdatrie-0.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libdatrie-0.1.1-X.cygport all
+  cygport ./libdatrie-0.1.2-X.cygport all
 
 This will create:
-  /usr/src/libdatrie-0.1.1-X-src.tar.bz2
-  /usr/src/libdatrie-0.1.1-X.tar.bz2
-  /usr/src/libdatrie-devel-0.1.1-X.tar.bz2
-  /usr/src/libdatrie0-0.1.1-X.tar.bz2
+  /usr/src/libdatrie-0.1.2-X-src.tar.bz2
+  /usr/src/libdatrie-0.1.2-X.tar.bz2
+  /usr/src/libdatrie-devel-0.1.2-X.tar.bz2
+  /usr/src/libdatrie0-0.1.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
+Files included in the binary packages:
 
+(libdatrie)
   /usr/bin/trietool.exe
-  /usr/share/doc/Cygwin/libdatrie-0.1.1.README
-  /usr/share/doc/libdatrie-0.1.1/AUTHORS
-  /usr/share/doc/libdatrie-0.1.1/COPYING
-  /usr/share/doc/libdatrie-0.1.1/ChangeLog
-  /usr/share/doc/libdatrie-0.1.1/INSTALL
-  /usr/share/doc/libdatrie-0.1.1/NEWS
-  /usr/share/doc/libdatrie-0.1.1/README
-  /usr/share/doc/libdatrie-0.1.1/html/annotated.html
-  /usr/share/doc/libdatrie-0.1.1/html/darray_8h.html
-  /usr/share/doc/libdatrie-0.1.1/html/doxygen.css
-  /usr/share/doc/libdatrie-0.1.1/html/doxygen.png
-  /usr/share/doc/libdatrie-0.1.1/html/files.html
-  /usr/share/doc/libdatrie-0.1.1/html/functions.html
-  /usr/share/doc/libdatrie-0.1.1/html/functions_vars.html
-  /usr/share/doc/libdatrie-0.1.1/html/globals.html
-  /usr/share/doc/libdatrie-0.1.1/html/globals_func.html
-  /usr/share/doc/libdatrie-0.1.1/html/globals_type.html
-  /usr/share/doc/libdatrie-0.1.1/html/index.html
-  /usr/share/doc/libdatrie-0.1.1/html/sb-trie_8h.html
-  /usr/share/doc/libdatrie-0.1.1/html/struct__Trie.html
-  /usr/share/doc/libdatrie-0.1.1/html/struct__TrieState.html
-  /usr/share/doc/libdatrie-0.1.1/html/tab_b.gif
-  /usr/share/doc/libdatrie-0.1.1/html/tab_l.gif
-  /usr/share/doc/libdatrie-0.1.1/html/tab_r.gif
-  /usr/share/doc/libdatrie-0.1.1/html/tabs.css
-  /usr/share/doc/libdatrie-0.1.1/html/tail_8h.html
-  /usr/share/doc/libdatrie-0.1.1/html/trie_8h.html
-  /usr/share/doc/libdatrie-0.1.1/html/triedefs_8h.html
+  /usr/share/doc/Cygwin/libdatrie-0.1.2.README
+  /usr/share/doc/libdatrie-0.1.2/AUTHORS
+  /usr/share/doc/libdatrie-0.1.2/COPYING
+  /usr/share/doc/libdatrie-0.1.2/ChangeLog
+  /usr/share/doc/libdatrie-0.1.2/INSTALL
+  /usr/share/doc/libdatrie-0.1.2/NEWS
+  /usr/share/doc/libdatrie-0.1.2/README
+  /usr/share/doc/libdatrie-0.1.2/html/annotated.html
+  /usr/share/doc/libdatrie-0.1.2/html/darray_8h.html
+  /usr/share/doc/libdatrie-0.1.2/html/doxygen.css
+  /usr/share/doc/libdatrie-0.1.2/html/doxygen.png
+  /usr/share/doc/libdatrie-0.1.2/html/files.html
+  /usr/share/doc/libdatrie-0.1.2/html/functions.html
+  /usr/share/doc/libdatrie-0.1.2/html/functions_vars.html
+  /usr/share/doc/libdatrie-0.1.2/html/globals.html
+  /usr/share/doc/libdatrie-0.1.2/html/globals_func.html
+  /usr/share/doc/libdatrie-0.1.2/html/globals_type.html
+  /usr/share/doc/libdatrie-0.1.2/html/index.html
+  /usr/share/doc/libdatrie-0.1.2/html/sb-trie_8h.html
+  /usr/share/doc/libdatrie-0.1.2/html/struct__Trie.html
+  /usr/share/doc/libdatrie-0.1.2/html/struct__TrieState.html
+  /usr/share/doc/libdatrie-0.1.2/html/tab_b.gif
+  /usr/share/doc/libdatrie-0.1.2/html/tab_l.gif
+  /usr/share/doc/libdatrie-0.1.2/html/tab_r.gif
+  /usr/share/doc/libdatrie-0.1.2/html/tabs.css
+  /usr/share/doc/libdatrie-0.1.2/html/tail_8h.html
+  /usr/share/doc/libdatrie-0.1.2/html/trie_8h.html
+  /usr/share/doc/libdatrie-0.1.2/html/triedefs_8h.html
   /usr/share/man/man1/trietool.1.gz
 
 (libdatrie0)
@@ -96,6 +97,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.1.2-1 -----
+Version bump.
 
 ----- version 0.1.1-1 -----
 Initial release for Cygwin.
