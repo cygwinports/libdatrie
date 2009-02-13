@@ -2,6 +2,7 @@ DESCRIPTION="Double-array trie structure library"
 HOMEPAGE="http://linux.thai.net/"
 #SRC_URI="http://linux.thai.net/pub/thailinux/software/libthai/${P}.tar.gz"
 SRC_URI="http://ftp.debian.org/debian/pool/main/${PN:0:4}/${PN}/${PN}_${PV}.orig.tar.gz"
+PATCH_URI="0.1.2-no-undefined.patch"
 
 CYGCONF_ARGS="--with-html-docdir=/usr/share/doc/${P}/html"
 
