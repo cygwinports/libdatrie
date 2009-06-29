@@ -1,5 +1,5 @@
 category: Libs
-requires: cygwin libdatrie0
+requires: libdatrie0
 sdesc: "Double-array digital search tree library (utility)"
 ldesc: "This is an implementation of double-array structure for 
 representing trie, as proposed by Junichi Aoe [1].
