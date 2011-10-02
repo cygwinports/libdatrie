@@ -1,7 +1,0 @@
---- origsrc/libdatrie-0.1.2/datrie/Makefile.am	2007-08-25 00:25:54.000000000 -0500
-+++ src/libdatrie-0.1.2/datrie/Makefile.am	2007-10-29 23:26:20.187500000 -0500
-@@ -32,3 +32,4 @@
- 	-version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE) \
- 	-export-symbols $(srcdir)/libdatrie.def
- 
-+libdatrie_la_LDFLAGS = -no-undefined

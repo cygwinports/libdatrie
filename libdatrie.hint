@@ -1,5 +1,5 @@
 category: Libs
-requires: libdatrie0
+requires: libdatrie1 libiconv2
 sdesc: "Double-array digital search tree library (utility)"
 ldesc: "This is an implementation of double-array structure for 
 representing trie, as proposed by Junichi Aoe [1].

@@ -1,5 +1,5 @@
 category: Libs
-requires: cygwin
+requires:
 external-source: libdatrie
 sdesc: "Double-array digital search tree library (runtime)"
 ldesc: "This is an implementation of double-array structure for 
