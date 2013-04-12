@@ -14,10 +14,9 @@ dictionaries."
 HOMEPAGE="http://linux.thai.net/"
 SRC_URI="http://linux.thai.net/pub/thailinux/software/libthai/libdatrie-${VERSION}.tar.xz"
 
-PKG_NAMES="${NAME} ${NAME}1 ${NAME}-devel ${NAME}-doc"
-libdatrie_CONTENTS="--exclude=html usr/bin/*.exe usr/share/"
+PKG_NAMES="${NAME}1 ${NAME}-devel ${NAME}-doc"
 libdatrie1_CONTENTS="usr/bin/cygdatrie-1.dll"
-libdatrie_devel_CONTENTS="usr/include/ usr/lib/"
-libdatrie_doc_CONTENTS="usr/share/doc/${NAME}/html/"
+libdatrie_devel_CONTENTS="usr/bin/trietool* usr/include/ usr/lib/ usr/share/man/"
+libdatrie_doc_CONTENTS="usr/share/doc/"
 
 CYGCONF_ARGS="--with-html-docdir=/usr/share/doc/${NAME}/html"
