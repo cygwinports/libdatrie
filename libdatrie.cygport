@@ -1,0 +1,23 @@
+NAME="libdatrie"
+VERSION=0.2.6
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Double-array digital search tree library"
+DESCRIPTION="This is an implementation of double-array structure for
+representing trie, as proposed by Junichi Aoe [1].
+
+Trie is a kind of digital search tree, an efficient indexing method with
+O(1) time complexity for searching. Comparably as efficient as hashing,
+trie also provides flexibility on incremental matching and key spelling
+manipulation. This makes it ideal for lexical analyzers, as well as spelling
+dictionaries."
+HOMEPAGE="http://linux.thai.net/"
+SRC_URI="http://linux.thai.net/pub/thailinux/software/libthai/libdatrie-${VERSION}.tar.xz"
+
+PKG_NAMES="${NAME} ${NAME}1 ${NAME}-devel ${NAME}-doc"
+libdatrie_CONTENTS="--exclude=html usr/bin/*.exe usr/share/"
+libdatrie1_CONTENTS="usr/bin/cygdatrie-1.dll"
+libdatrie_devel_CONTENTS="usr/include/ usr/lib/"
+libdatrie_doc_CONTENTS="usr/share/doc/${NAME}/html/"
+
+CYGCONF_ARGS="--with-html-docdir=/usr/share/doc/${NAME}/html"
