@@ -1,5 +1,5 @@
 NAME="libdatrie"
-VERSION=0.2.6
+VERSION=0.2.8
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Double-array digital search tree library"
